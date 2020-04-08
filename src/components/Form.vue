@@ -1,7 +1,7 @@
 <template>
   <form @submit.prevent="addUser">
-    <input required v-model="name" type="text" placeholder="name">
-    <input required v-model="surname" type="text" placeholder="surname">
+    <input required v-model="name" type="text" placeholder="First Name">
+    <input required v-model="surname" type="text" placeholder="Last Name">
     <button type="submit">Submit</button>
   </form>
 </template>
