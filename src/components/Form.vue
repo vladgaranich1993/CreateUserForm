@@ -44,9 +44,9 @@ export default {
 };
 </script>
 <style>
-    form {
+  form {
     width: 750px;
     border-collapse: collapse;
     margin: 10px auto;
-    }
+  }
 </style>

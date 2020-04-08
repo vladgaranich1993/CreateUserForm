@@ -13,7 +13,9 @@ export default {
   name: "App",
   data() {
     return {
-      users: [{id:1,name:'Harry',surname:'Potter',emailAddress:'hpotter@gmail.at'}]
+      users: [
+        { id: 1, name: 'Harry', surname: 'Potter', emailAddress: 'hpotter@gmail.at' }
+      ]
     };
   },
   components: {
